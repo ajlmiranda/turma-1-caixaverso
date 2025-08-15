@@ -57,9 +57,9 @@
     margin-bottom: 30px;
 }
 
-.a2 {
+/* .a2 {
     margin-left: 20px;
-}
+} */
 
 .expectativas {
     margin: 15px 15px 0 15px;
@@ -71,7 +71,7 @@
 ul {
     /* color: white; */
     list-style: none;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 20px;
 }
 

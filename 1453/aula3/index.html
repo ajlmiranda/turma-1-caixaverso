@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+
+<body>
+
+    <h2>Listas</h2>
+    <!-- Listas ordenadas e não ordenadas -->
+
+    <!-- lista não ordenada -->
+
+    <ul type="none">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+
+    <ol type="none" start="5">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ol>
+
+    <ul type="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+
+    <br>
+    <hr><br>
+
+    <h2>Tabelas</h2>
+    <!-- Tabelas -->
+    <!-- iniciar a tabela: <table>
+        Linha: tr
+        Célula: td -->
+
+    <table border="1">
+        <tr>
+            <td>Conteúdo</td>
+            <td colspan="2">Conteúdo</td>
+            <td>Conteúdo</td>
+            <!-- <td>Conteúdo</td> -->
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td rowspan="3">Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <!-- <td>Conteúdo</td> -->
+        </tr>
+    </table>
+
+    <br>
+    <hr> <br>
+
+    <table border="1">
+        <tr>
+            <th>ISBN</th>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Gênero</th>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td rowspan="2">Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td rowspan="2">Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+        <tr>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+            <td>Conteúdo</td>
+        </tr>
+    </table>
+    <br>
+    <hr><br>
+
+    <h2>Formulários</h2>
+
+    <form action="">
+        <label for="inputNome">Nome</label>
+        <input id="inputNome" type="text" placeholder="digite seu nome" required>
+        <br><br>
+        <label for="inputTel">Telefone</label>
+        <input id="inputTel" type="tel" placeholder="digite seu telefone" required>
+        <br><br>
+        <label for="inputIdade">idade</label>
+        <input id="inputIdade" type="number" placeholder="digite sua idade" required>
+        <br><br>
+        <label for="inputEmail">E-mail</label>
+        <input id="inputEmail" type="email" placeholder="digite seu email" required>
+        <br><br>
+
+
+        <!-- <input type="submit">
+        <input type="reset">
+        <input type="button" value="Ação desejada">
+        Button sem atributo = type="submit" -->
+
+
+        <button>Enviar</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+
+    <br>
+    <hr><br>
+
+
+
+</body>
+
+</html>
