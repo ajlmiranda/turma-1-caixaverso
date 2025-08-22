@@ -10,6 +10,19 @@ body {
     background-repeat: no-repeat;
 }
 
+.barra-de-navegacao {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
 #main-content {
     /* text-align: center; */
     padding-top: 20px;
