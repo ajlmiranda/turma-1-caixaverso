@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #cd313e;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.headerlinks {
+    text-decoration: none;
+    color: #cd313e;
+}
+
+.buy {
+    width: 150px;
+    height: 30px;
+    background-color: #cd313e;
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.purchase,
+.learn {
+    width: 190px;
+    height: 36px;
+    background-color: #cd313e;
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    padding-top: 240px;
+    padding-bottom: 380px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-origin: border-box;
+}
+
+.main-content {
+    margin-left: 70px;
+    width: 540px;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: Roboto;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.description {
+    color: #d44d51;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.botoes {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.learn {
+    background-color: #cd313e00;
+    border: 1px solid black;
+    color: black;
+}
+
+footer {
+    padding: 0 150px;
+    height: 200px;
+    background-color: #f78282;
+    padding-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.yourcompany {
+    color: white;
+}
+
+.footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
