@@ -255,7 +255,7 @@ form {
         background-image: url(assets/beiramar\ 1.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250vh;
+        height: 150vh;
     }
 
     .nav-menu {
@@ -315,11 +315,28 @@ form {
         gap: 0px;
     }
 
+    .formulario {
+        width: 400px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
     .side {
         flex-direction: column;
         padding: 0px;
         padding-top: 40px;
         gap: 20px;
+    }
+
+    .tabelas {
+        align-items: center;
+    }
+
+    table {
+        width: 400px;
+        font-size: 24px;
     }
 
     footer {
@@ -338,7 +355,11 @@ form {
         background-image: url(assets/beiramar\ 1.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250vh;
+        height: 150vh;
+    }
+
+    .main-content {
+        width: 300px;
     }
 
     .nav-menu {
@@ -354,6 +375,7 @@ form {
     .content2 {
         display: flex;
         /* justify-content: center; */
+        align-items: center;
         width: 100%;
     }
 
@@ -369,17 +391,19 @@ form {
         justify-content: center;
     }
 
-    .almoco-content {
-        width: 600px;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
     .almocos-content {
         display: flex;
         text-align: center;
-        width: 600px;
+        align-content: center;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .almoco-content {
+        /* border: 2px solid black; */
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .descricao {
@@ -398,11 +422,37 @@ form {
         gap: 0px;
     }
 
+    .formulario {
+        width: 300px;
+    }
+
+    .input {
+        width: 260px;
+    }
+
+    .cadastro {
+        width: 200px;
+    }
+
+    .voltar {
+        width: 200px;
+    }
+
     .side {
         flex-direction: column;
         padding: 0px;
         padding-top: 40px;
         gap: 20px;
+    }
+
+    .tabelas {
+        align-items: center;
+        /* margin-left: 10px; */
+    }
+
+    table {
+        width: 300px;
+        font-size: 20px;
     }
 
     footer {
