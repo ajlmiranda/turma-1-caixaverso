@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(48, 130, 48),
+        rgb(100, 90, 238)
+    );
+    background-size: 100% 100vh;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 44px;
+    color: white;
+    text-shadow: 2px 3px #000000, 2px 2px #000000;
+}
+
+#addInput {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #e3ffe5;
+    padding-left: 10px;
+    border: 2px solid black;
+}
+
+#titulo {
+    padding-bottom: 30px;
+}
+
+.listaDeTarefas {
+    display: flex;
+    padding-top: 50px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px #000000, 2px 2px #000000;
+    justify-content: center;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.botaoDelete,
+.botaoEdit,
+.button {
+    margin-left: 15px;
+    background-color: #4caf50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+.botaoDelete:hover,
+.botaoEdit:hover,
+.button:hover {
+    background-color: #87ed8b;
+}
