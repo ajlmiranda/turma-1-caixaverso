@@ -54,6 +54,8 @@ li {
 
 .botaoDelete,
 .botaoEdit,
+.botaoSubir,
+.botaoDescer,
 .button {
     margin-left: 15px;
     background-color: #4caf50;
@@ -68,6 +70,8 @@ li {
 
 .botaoDelete:hover,
 .botaoEdit:hover,
+.botaoSubir:hover,
+.botaoDescer:hover,
 .button:hover {
     background-color: #87ed8b;
 }
